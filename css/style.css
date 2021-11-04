@@ -159,6 +159,8 @@ img{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
+    cursor: pointer;
 }
 
 @media (min-width: 768px){
@@ -275,17 +277,21 @@ img{
 
 .campo{
     display: flex;
+    margin-bottom: 2rem;
 
 }
 
 .campo__label{
     flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
 }
 
 .campo__field{
     flex: 1;
+    border: 1px solid rgb(192, 192, 192);
 }
 
-.campo__field--textarea{
-
+.campo__field--textarea{    
+    height: 20rem;
 }
